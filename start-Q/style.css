@@ -1,13 +1,306 @@
 body {
-  font-family: 'Dosis', sans-serif;
+  font-family: "Dosis", sans-serif;
   font-weight: 500;
 }
 
 a {
   color: orange;
 }
-
 a:hover {
   color: black;
 }
-/*# sourceMappingURL=style.css.map */
+
+#demo {
+  padding-bottom: 50px;
+}
+#demo .box .minibox {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #df1b1b;
+}
+#demo .box .box2 {
+  position: absolute;
+  top: 50px;
+  left: 30px;
+}
+
+#one {
+  padding-bottom: 50px;
+}
+#one .box .minibox {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #3437f8;
+  transition: 2;
+}
+#one .box .minibox:hover {
+  width: 600px;
+}
+#one .box .big {
+  width: 600px;
+}
+
+#two {
+  padding-bottom: 70px;
+}
+#two .box .minibox {
+  display: inline-block;
+  width: 100px;
+  height: 100px;
+  border: 2px solid #d25d14;
+}
+#two .box .box {
+  transform: translate(35px, 120px);
+}
+
+#three {
+  padding-bottom: 70px;
+}
+#three .minibox {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #612804;
+}
+#three .boxx {
+  border: 1px solid #612804;
+}
+@media screen and (min-width: 433px) {
+  #three .boxx {
+    border: 3px solid #df1b1b;
+  }
+}
+
+#four {
+  padding-bottom: 50px;
+}
+#four .box {
+  position: relative;
+}
+#four .box .minibox {
+  width: 100px;
+  height: 100px;
+  border: 2px solid #ff8ed6;
+}
+#four .box .box2 {
+  position: absolute;
+  top: 0;
+  left: 100px;
+}
+
+#five {
+  padding-bottom: 50px;
+}
+#five .minibox {
+  width: 100px;
+  height: 100px;
+  border: 2 px solid #df1b1b;
+}
+#five .big {
+  transform: scale(100);
+}
+
+#six {
+  padding-bottom: 50px;
+}
+#six .minibox {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #3437f8;
+}
+@media screen and (max-width: 500px) {
+  #six .minibox {
+    border: 2px solid #df1b1b;
+  }
+}
+@media screen and (max-width: 736px) {
+  #six .minibox {
+    width: 100px;
+    height: 100px;
+    border: 1px solid #d25d14;
+  }
+}
+
+#seven {
+  padding-bottom: 50px;
+}
+#seven .minibox {
+  width: 100px;
+  height: 100px;
+  border: 2px solid #df1b1b;
+}
+@media screen and (max-width: 790px) {
+  #seven .minibox {
+    border: 1px solid #275280;
+    transition: 2s;
+  }
+  #seven .minibox:hover {
+    width: 400px;
+  }
+}
+@media screen and (max-width: 554px) {
+  #seven .minibox {
+    width: 150px;
+    height: 150px;
+    border: 5px solid #ff8ed6;
+    transition: 2s;
+    background-color: #3437f8;
+  }
+  #seven .minibox:hover {
+    width: 700px;
+  }
+}
+
+#eight {
+  padding-bottom: 50px;
+}
+#eight .minibox {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #3437f8;
+}
+@media screen and (max-width: 758px) {
+  #eight .minibox {
+    width: 150px;
+    height: 150px;
+    border: 2px solid #fffb00;
+  }
+}
+
+#nine {
+  padding-bottom: 50px;
+}
+#nine .minibox {
+  width: 100px;
+  height: 100px;
+  border: 5px solid #3437f8;
+}
+@media screen and (max-width: 767px) {
+  #nine .minibox {
+    width: 170px;
+    height: 170px;
+    border: 2px solid #a930f4;
+  }
+}
+@media screen and (max-width: 584px) {
+  #nine {
+    border-radius: 35px;
+  }
+}
+
+#ten {
+  padding-bottom: 50px;
+}
+#ten .minibox {
+  width: 100px;
+  height: 100px;
+  border: 2px solid #3437f8;
+}
+@media screen and (min-width: 376px) {
+  #ten .minibox {
+    width: 120px;
+    height: 120px;
+    border-radius: 55px;
+  }
+}
+@media screen and (min-width: 987px) {
+  #ten .minibox {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #d25d14;
+    border-radius: 5px;
+  }
+}
+
+#eleven {
+  padding-bottom: 50px;
+}
+#eleven .minibox {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #0cc26d;
+}
+@media screen and (max-width: 856px) {
+  #eleven .minibox {
+    border: 2px solid #275280;
+    transition: 4s;
+  }
+  #eleven .minibox:hover {
+    width: 400px;
+  }
+}
+@media screen and (max-width: 435px) {
+  #eleven .minibox {
+    width: 150px;
+    height: 150px;
+    border: 1px solid #3d0b2a;
+    transition: 1s;
+    background-color: #ff8ed6;
+  }
+  #eleven .minibox:hover {
+    width: 700px;
+  }
+}
+
+#twelve {
+  padding-bottom: 50px;
+}
+#twelve .box .minibox {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #d91021;
+}
+@media screen and (max-width: 909px) {
+  #twelve .minibox {
+    border: 2px solid #c5295a;
+    transition: 1s;
+    border-radius: 55px;
+  }
+  #twelve .minibox:hover {
+    width: 400px;
+  }
+}
+@media screen and (max-width: 543px) {
+  #twelve .minibox {
+    width: 50px;
+    height: 5050px;
+    border: 4px solid #00ff37;
+    transition: 5s;
+    background-color: #d8b0ca;
+  }
+  #twelve .minibox:hover {
+    width: 840px;
+  }
+}
+
+#thirteen {
+  padding-bottom: 50px;
+}
+#thirteen .box .minibox {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #ffc9c9;
+}
+@media screen and (max-width: 584px) {
+  #thirteen .minibox {
+    border-radius: 35px;
+  }
+}
+
+#fourteen {
+  padding-bottom: 50px;
+}
+#fourteen .box .minibox {
+  width: 100px;
+  height: 100px;
+  border: 1px solid #27dece;
+}
+@media screen and (max-width: 909px) {
+  #fourteen .minibox {
+    border: 2px solid #d90f88;
+    transition: 1s;
+    border-radius: 44px;
+  }
+  #fourteen .minibox:hover {
+    width: 350px;
+  }
+}/*# sourceMappingURL=style.css.map */
